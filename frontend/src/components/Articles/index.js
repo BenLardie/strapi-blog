@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from '../Card'
 
 export default function Articles({ articles }) {
     const leftArticlesCount = Math.ceil(articles.length / 5);
