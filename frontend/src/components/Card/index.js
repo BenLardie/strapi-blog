@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export default function Card({ article }) {
+    console.log(article)
     const imageUrl =
         process.env.NODE_ENV !== "development"
             ? article.image.url
